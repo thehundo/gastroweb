@@ -4,25 +4,23 @@
     font-family: Helvetica, sans-serif;
 }
 
+.bk_orange {
+    background-color: #FF8811;
+}
+
+.banner {
+    text-align: center;
+}
+
 #title {
-    background-color: rgb(213, 104, 9);
-    color: aliceblue;
+    color: #FFF8F0;
     text-align: center;
 }
 
 #tagline {
-    color: rgb(213, 104, 9);
     text-align: center;
 }
 
-.header {
-    background-color:aliceblue;
-    font-weight: 200;
-}
-
-.nav {
-    color: rgb(213, 104, 9);  
-}
 
 img {
     height: auto;
