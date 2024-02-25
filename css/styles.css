@@ -13,11 +13,11 @@
 }
 
 .block_a {
-    display: inline;
+    display: inline-block;
 }
 
 .subblock {
-    display: block;
+    display: inline-block;
 }
 
 #title {
