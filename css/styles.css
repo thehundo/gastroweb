@@ -26,6 +26,12 @@
     display: inline-block;
 }
 
+.borderbox {
+    width: 600px auto;
+    border-color: #FFF8F0;
+    border-width: 5px;
+}
+
 #title {
     font-size: 92px;
     font-weight: 100;
