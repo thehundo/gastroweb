@@ -12,13 +12,19 @@
     text-align: center;
 }
 
+.block_a {
+    display: inline;
+}
+
+.subblock {
+    display: block;
+}
+
 #title {
     color: #FFF8F0;
-    text-align: center;
 }
 
 #tagline {
-    text-align: center;
 }
 
 
