@@ -1,19 +1,25 @@
 /* styles.css */
 
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .bk_orange {
     background-color: #FF8811;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .banner {
     text-align: center;
+    padding: 40px;
+    color: #FFF8F0;
 }
 
 .block_a {
-    display: inline-block;
+    display: block;
 }
 
 .subblock {
@@ -21,10 +27,14 @@
 }
 
 #title {
-    color: #FFF8F0;
+    font-size: 92px;
+    font-weight: 100;
 }
 
 #tagline {
+    margin-top: -30px;
+    margin-bottom: 150px;
+    font-size: 30px;
 }
 
 
