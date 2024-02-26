@@ -8,6 +8,16 @@
     background-color: #FF8811;
 }
 
+.bk_blue {
+    background-color: #6db2ec;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -27,9 +37,12 @@
 }
 
 .borderbox {
-    width: 600px auto;
-    border-color: #FFF8F0;
-    border-width: 5px;
+    margin: 0px 150px 15px;
+    color:#6db2ec;
+    padding: 5px;
+    background-color: #FFF8F0;
+    border: solid 2px;
+    border-color: #6db2ec;
 }
 
 #title {
