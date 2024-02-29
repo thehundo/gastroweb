@@ -15,7 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 30px;
+    padding: 6px 150px;
 }
 
 ul {
@@ -54,11 +54,41 @@ body {
 
 .hero {
     display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
     justify-content: space-between;
-    padding: 80px 150px;
+    align-items: center;
+    height: 600px;
+    padding: 40px 150px;
     gap: 60px;
 }
 
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px;
+    gap: 70px;
+    color: #eee;
+}
+
+.title {
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-size: 36px;
+}
+
+.card {
+    flex: 1;
+}
+
+.card img{
+    border: 3px solid #4f1104;
+    height: auto;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -68,8 +98,17 @@ body {
     align-items: flex-start;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 150px;
+    gap: 50px;
+}
+
 img {
-    width: 520px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -77,10 +116,15 @@ img {
 h1 {
     font-size: 42px;
     color: #383431;
+    line-height: 1.3em;
 }
 
 .bk_orange {
     background-color: #FF8811;
+}
+
+.f_or {
+    color: #FF8811;
 }
 
 .bk_dkor {
@@ -89,6 +133,7 @@ h1 {
 
 .bk_blue {
     background-color: #6db2ec;
+    color: #eee;
 }
 
 button {
@@ -100,13 +145,6 @@ button {
 
 .bold {
     font-weight: 700;
-}
-
-
-.card {
-    background-color: #FFF8F0;
-    width: 420px;
-    flex: 1;
 }
 
 
