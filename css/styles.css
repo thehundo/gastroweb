@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+p {
+    line-height: 1.4em;
+    font-size: 18px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -22,7 +27,6 @@ ul {
   }
   
 .logo a {
-    /* margin-right: auto; */
     font-size: 1.5em;
     font-weight: 100;
     color: rgb(36, 37, 37);
@@ -33,21 +37,46 @@ li {
 }
 
 li a {
-    color: rgb(71, 73, 74);
+    color: #383431;
 }
 
-.login {
+.login, .signup {
     border-radius: 10px;
     color: #eee;
     padding: 8px 15px;
     font-size: 1.2em;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
+body {
+   
+}
 
-h2 {
-    font-size: 62px;
-    text-align: center;
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px;
+    gap: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 520px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+img {
+    width: 520px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 42px;
+    color: #383431;
 }
 
 .bk_orange {
@@ -73,18 +102,6 @@ button {
     font-weight: 700;
 }
 
-.banner {
-    height: 600px;
-    padding: 40px;
-    color: #FFF8F0;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    height: 600px;
-    padding: 16px;
-}
 
 .card {
     background-color: #FFF8F0;
@@ -92,28 +109,6 @@ button {
     flex: 1;
 }
 
-.borderbox {
-    margin: 0px 150px 15px;
-    color:#6db2ec;
-    padding: 5px;
-    background-color: #FFF8F0;
-    border: solid 2px;
-    border-color: #6db2ec;
-}
 
-#title {
-    font-size: 92px;
-    font-weight: 100;
-}
 
-#tagline {
-    margin-top: -30px;
-    margin-bottom: 150px;
-    font-size: 30px;
-}
-
-img {
-    width: 120px;
-    height:auto;
-}
 
