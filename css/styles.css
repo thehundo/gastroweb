@@ -3,11 +3,12 @@
 * {
     font-family: Roboto, sans-serif;
     align-items: center;
+    margin-block: 0px;
 }
 
 p {
     line-height: 1.4em;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a {
@@ -48,6 +49,7 @@ li a {
 .login, .signup {
     border-radius: 10px;
     color: #eee;
+    border-style: solid;
     padding: 8px 15px;
     font-size: 1.2em;
     margin-left: 0px;
@@ -76,23 +78,24 @@ body {
     text-align: center;
     padding: 0px 0px;
     gap: 70px;
-    color: #eee;
 }
 
 .title {
     text-align: center;
-    padding: 0px;
-    color: white;
+    padding-bottom: 40px;
     font-size: 36px;
 }
 
 .card {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    gap: 10px;
 }
 
 .card img{
-    border: 3px solid #4f1104;
-    height: auto;
+    border: 3px solid darkslategrey;
+    height: 160px;
 }
 .container {
     display: flex;
@@ -109,8 +112,17 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 100px 250px;
     gap: 20px;
+}
+
+.wide {
+    padding: 40px 150px;
+    align-items: stretch;
+}
+
+.narrow {
+    padding: 80px 250px;
+    
 }
 
 .quote {
@@ -144,19 +156,38 @@ h1 {
 
 .bk_orange {
     background-color: #FF8811;
+    color: white;
 }
 
 .f_or {
     color: #FF8811;
 }
 
-.bk_dkor {
-    background-color: #bd3c04;
+.bk_blue {
+    /* background-color: hsla(210, 100%, 53%, 0.47); */
+    background-color: #eee;
 }
 
-.bk_blue {
-    background-color: #6db2ec;
-    color: #eee;
+.c_three {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    text-align: left;
+    padding: 70px 100px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.c_three a {
+    flex-shrink: 0;
+}
+
+.cta_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
 }
 
 button {
