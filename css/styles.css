@@ -4,6 +4,7 @@
     font-family: Roboto, sans-serif;
     align-items: center;
     margin-block: 0px;
+    color: darkslategray;
 }
 
 p {
@@ -110,18 +111,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     gap: 20px;
 }
 
 .wide {
-    padding: 40px 150px;
+    padding: 80px 150px;
     align-items: stretch;
+    color: #eee;
 }
 
 .narrow {
-    padding: 80px 250px;
+    padding: 100px 250px;
     
 }
 
@@ -150,7 +152,7 @@ img {
 
 h1 {
     font-size: 42px;
-    color: #383431;
+    color: darkslategray;
     line-height: 1.3em;
 }
 
@@ -166,6 +168,7 @@ h1 {
 .bk_blue {
     /* background-color: hsla(210, 100%, 53%, 0.47); */
     background-color: #eee;
+    color: darkslategrey;
 }
 
 .c_three {
@@ -173,7 +176,7 @@ h1 {
     justify-content: space-between;
     align-items: flex-end; 
     text-align: left;
-    padding: 70px 100px;
+    padding: 50px 100px;
     border-radius: 10px;
     gap: 50px;
 }
@@ -182,12 +185,16 @@ h1 {
     flex-shrink: 0;
 }
 
-.cta_left {
+#cta_left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     gap: 12px;
+}
+
+#cta_left * {
+    color: #eee;
 }
 
 button {
@@ -201,6 +208,13 @@ button {
     font-weight: 700;
 }
 
-
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: lightgray;
+    padding: 16px;
+    margin-top: 0px;
+}
 
 
